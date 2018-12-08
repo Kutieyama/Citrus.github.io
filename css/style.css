@@ -1,0 +1,530 @@
+/* medias */
+
+#discord {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: auto;
+    background-image: url("images/discord.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#discord:hover #overlayDiscord {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayDiscord {
+    background-image: url("images/discord.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+#twitter {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: auto;
+    background-image: url("images/twitter.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#twitter:hover #overlayTwitter {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayTwitter {
+    background-image: url("images/twitter.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+#gitHub {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: auto;
+    background-image: url("images/github.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#gitHub:hover #overlayGithub {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayGithub {
+    background-image: url("images/42-GitHub.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+
+#codepen {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: auto;
+    background-image: url("images/original.gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#codepen:hover #overlayCodepen {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayCodepen {
+    background-image: url("images/codepen.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+/* medias */
+
+/* logo items */
+
+#logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background-image: url("images/original.gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#logo > h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-100%);
+}
+
+
+/* logo item end */
+
+/* header */
+
+#title > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px;
+}
+
+header {
+    background-image: url("images/header.png");
+    background-position: center;
+    max-width: 1000px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: #000000 0 0 5px inset;
+}
+
+/* header end */
+
+/* navigator */
+
+p {
+    font-family: "cursive", URW Chancery L, cursive;
+}
+
+h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+}
+
+.navigator {
+    max-width: 1000px;
+    padding: 0px;
+    background-image: url("images/background-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: 0 -2px 2px -2px #000000;
+}
+
+.navigator > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.navigator > ul > li {
+    display: inline-block;
+    padding: 0;
+}
+
+.navigator a {
+    display: inline-block;
+    padding: 5px 20px 5px;
+    color: #232323;
+    font-family: 'Chicle', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: #232323 0 0 5px;
+}
+
+.navigator a:hover {
+    background-color: #232323;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: #ffffff 0 0 9px;
+    box-shadow: #000000 0 0 5px inset;
+    transition: background-color 0.5s;
+}
+
+/* end nav */
+
+/* body */
+
+body {
+    background-image: url("images/background-1.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+
+#content {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    background-color: #515151;
+    box-shadow: #000000 0 0 10px inset;
+    border-radius: 5px;
+}
+
+
+#content > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px;
+}
+
+#content2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 750px;
+    min-height: 900px;
+    background-image: url("images/titlecol1.jpg");
+    background-color: #515151;
+    background-position: center;
+    background-size: cover;
+    box-shadow: #000000 0 0 30px;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+}
+
+#content2 > .title {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* body */
+
+/* Buttons */
+
+.button {
+    margin: auto;
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 100px;
+    max-width: 200px;
+    background-color: #515151;
+    box-shadow: #000000 0 0 10px inset;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+
+.button:hover {
+    background-color: #666666;
+    color: #232323;
+    text-shadow: #000000 0 0 9px;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+.button > a {
+    font-family: "cursive", URW Chancery L, cursive;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #000000 0 0 20px;
+}
+
+/* button end */
+
+/* sections */
+
+.section1 {
+    padding: 25px;
+    flex-direction: row;
+    float: left;
+    max-width: 200px;
+    position: relative;
+    left: 0;
+}
+
+.section1 img {
+    box-shadow: #000000 0 0 10px;
+    border-radius: 15px;
+}
+
+.section2 {
+    padding: 25px;
+    flex-direction: row;
+    float: left;
+    width: 680px;
+    position: relative;
+    left: 0;
+}
+
+.section2 > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.section2 > h2 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.section2 > p {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+}
+
+.section2 > hr {
+    width: 600px;
+    box-shadow: #000000 0 0 4px;
+}
+
+.section2 img {
+    box-shadow: #000000 0 0 10px;
+    border-radius: 15px;
+}
+
+a {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section3 {
+    padding: 25px;
+    flex-direction: row;
+    float: left;
+    width: 1000px;
+    position: relative;
+    left: 0;
+}
+
+.section3 > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.section3 > hr {
+    width: 600px;
+    box-shadow: #000000 0 0 4px;
+}
+
+/* end sections */
+
+hr {
+    width: 850px;
+}
+
+
+
+table {
+    display: inline-block;
+    border-spacing: 5px;
+}
+
+
+/* footer */
+
+#title > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px;
+}
+
+footer {
+    background-image: url("images/footer1.png");
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: #000000 0 0 5px inset;
+}
+
+/* footer end */
+
+/* footernav */
+
+p {
+    font-family: "cursive", URW Chancery L, cursive;
+}
+
+h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+}
+
+.botnavigator {
+    padding: 0px;
+    background-image: url("images/background-1.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: 0 3px 2px -2px #000000;
+}
+
+.botnavigator > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.botnavigator > ul > li {
+    display: inline-block;
+    padding: 0;
+}
+
+.botnavigator a {
+    display: inline-block;
+    padding: 5px 20px 5px;
+    color: #232323;
+    font-family: 'Chicle', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: #232323 0 0 5px;
+}
+
+.botnavigator a:hover {
+    background-color: #232323;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: #ffffff 0 0 9px;
+    box-shadow: #000000 0 0 5px inset;
+    transition: background-color 0.5s;
+}
+
+href {
+    text-decoration: none;
+}
+
+/* end nav */
+
+.social {
+    margin-bottom: 60px
+}
+
+.footsocial {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mov {
+    margin: auto;
+    max-width: 800px;
+    min-height: 400px;
+    box-shadow: #000000 0 0 5px;
+    border-radius: 15px;
+    overflow: hidden;
+}
